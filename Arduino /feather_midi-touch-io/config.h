@@ -1,7 +1,7 @@
 /************************ Adafruit IO Config *******************************/
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
-#define IO_USERNAME    "natstripe"
+#define IO_USERNAME    "labinsertio"
 #define IO_KEY         "b300b4b1c88c48d59c82ba4ba10e9639"
 
 /******************************* WIFI **************************************/
@@ -15,8 +15,8 @@
 
 //THIS IS SENSITIVE INFORMATION PLEASE TREAT IT AS SUCH 
 
-#define WIFI_SSID       "BELL375"
-#define WIFI_PASS       "9D3753C3"
+#define WIFI_SSID       "YOURNETWORKNAME"
+#define WIFI_PASS       "YOURNETWORKPASSWORD"
 
 // comment out the following two lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"

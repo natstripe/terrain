@@ -52,8 +52,9 @@ HardwareSerial Serial1(2);
 int sensor;
 //valores cercanos a los valores reales - usando ESP32 built in touchRead
 //con un cuadrado de aluminio - pendiente de valores reales de la planta 
+
 int sensorMax = 63;
-int sensorMin = 10;
+int sensorMin = 14;
 
 
 int note;
